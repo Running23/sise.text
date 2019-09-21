@@ -6,6 +6,7 @@ ls -al:显示隐藏的文件
 a.使用yum源在线安装git服务器:yum install -y git；
 b.创建一个git用户,用来运行git服务:adduser git;  
 c.修改git用户密码：passwd git;  
+d.创建一个目录，  
 d.初始化git仓库:git init --bare VersionControlServer.git,初始化空的 Git 版本库于 /root/VersionControlServer.git/
 e.把仓库的owner改为git用户:chown -R git:git  /root/VersionControlServer.git
 
