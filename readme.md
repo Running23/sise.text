@@ -1,8 +1,8 @@
 ## **学习笔记**
-1.查看Linux是否安装好对应开发环境  
+1. 查看Linux是否安装好对应开发环境  
 SVN--version;  
 ls -al:显示隐藏的文件  
-2.CentOS下搭建git服务器  (https://www.runoob.com/git/git-server.html)  
+2. CentOS下搭建git服务器  (https://www.runoob.com/git/git-server.html)  
 **a**.使用yum源在线安装git服务器:yum install -y git；  
 **b**.创建一个git用户,用来运行git服务:adduser git;  
 **c**.修改git用户密码：passwd git;  
@@ -26,6 +26,3 @@ ssh -p 9922 git@sxq.ngrok2.xiaomiqiu.cn
 
 
 [参考文档]：https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
-
-
-
